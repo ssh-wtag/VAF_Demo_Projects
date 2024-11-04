@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<application
+			type="server-application"
+			xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+			xsi:noNamespaceSchemaLocation="http://www.m-files.com/schemas/appdef-server-v3.xsd">
+  <guid>24a95760-1f63-4b1a-9f65-6c181a3db8e2</guid>
+  <name>VAF_Workflows</name>
+  <description></description>
+  <publisher></publisher>
+  <version>0.1</version>
+  <copyright></copyright>
+  <required-mfiles-version>22.3.0.0</required-mfiles-version>
+  <multi-server-compatible>false</multi-server-compatible>
+  <extension-objects>
+    <extension-object>
+      <name>VAF_Workflows</name>
+      <assembly>VAF_Workflows.dll</assembly>
+      <class>VAF_Workflows.VaultApplication</class>
+      <installation-method>Install</installation-method>
+      <uninstallation-method>Uninstall</uninstallation-method>
+      <initialization-method>Initialize</initialization-method>
+      <uninitialization-method>Uninitialize</uninitialization-method>
+      <start-operations-method>StartOperations</start-operations-method>
+    </extension-object>
+  </extension-objects>
+</application>
